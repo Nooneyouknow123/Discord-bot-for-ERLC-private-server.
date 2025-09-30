@@ -1,0 +1,504 @@
+
+--- 2025-09-22 22:31:17.828827 ---
+Command: add_role
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP BOT\main.py", line 165, in add_role
+    await user.add_roles(role)
+          ^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'add_roles'
+
+
+--- 2025-09-22 22:42:13.421366 ---
+Command: add_role
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1326, in _actual_conversion
+    return await converter().convert(ctx, argument)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 737, in convert
+    raise RoleNotFound(argument)
+discord.ext.commands.errors.RoleNotFound: Role "ro" not found.
+
+
+--- 2025-09-22 22:48:40.867612 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "remove_role" is not found
+
+
+--- 2025-09-22 23:15:13.028484 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "role_add" is not found
+
+
+--- 2025-09-22 23:15:59.063089 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "role_add" is not found
+
+
+--- 2025-09-22 23:16:08.060322 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "role_add" is not found
+
+
+--- 2025-09-22 23:16:22.458899 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "role_add" is not found
+
+
+--- 2025-09-22 23:17:42.697480 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "role_add" is not found
+
+
+--- 2025-09-22 23:17:48.711068 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "role_add" is not found
+
+
+--- 2025-09-22 23:20:52.319997 ---
+Command: say
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1335, in _actual_conversion
+    return converter(argument)
+ValueError: invalid literal for int() with base 10: 'Lol'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1344, in _actual_conversion
+    raise BadArgument(f'Converting to "{name}" failed for parameter "{param.name}".') from exc
+discord.ext.commands.errors.BadArgument: Converting to "int" failed for parameter "user_id".
+
+
+--- 2025-09-22 23:21:02.892975 ---
+Command: say
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1335, in _actual_conversion
+    return converter(argument)
+ValueError: invalid literal for int() with base 10: '<@732592521544204379>'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1344, in _actual_conversion
+    raise BadArgument(f'Converting to "{name}" failed for parameter "{param.name}".') from exc
+discord.ext.commands.errors.BadArgument: Converting to "int" failed for parameter "user_id".
+
+
+--- 2025-09-22 23:22:00.144045 ---
+Command: say
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1335, in _actual_conversion
+    return converter(argument)
+ValueError: invalid literal for int() with base 10: 'test'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1344, in _actual_conversion
+    raise BadArgument(f'Converting to "{name}" failed for parameter "{param.name}".') from exc
+discord.ext.commands.errors.BadArgument: Converting to "int" failed for parameter "user_id".
+
+
+--- 2025-09-22 23:22:15.895058 ---
+Command: say
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1335, in _actual_conversion
+    return converter(argument)
+ValueError: invalid literal for int() with base 10: 'ga'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1344, in _actual_conversion
+    raise BadArgument(f'Converting to "{name}" failed for parameter "{param.name}".') from exc
+discord.ext.commands.errors.BadArgument: Converting to "int" failed for parameter "user_id".
+
+
+--- 2025-09-22 23:22:59.482192 ---
+Command: say
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1335, in _actual_conversion
+    return converter(argument)
+ValueError: invalid literal for int() with base 10: 'I'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1344, in _actual_conversion
+    raise BadArgument(f'Converting to "{name}" failed for parameter "{param.name}".') from exc
+discord.ext.commands.errors.BadArgument: Converting to "int" failed for parameter "user_id".
+
+
+--- 2025-09-22 23:26:14.209478 ---
+Command: say
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1326, in _actual_conversion
+    return await converter().convert(ctx, argument)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 281, in convert
+    raise MemberNotFound(argument)
+discord.ext.commands.errors.MemberNotFound: Member "sahfihwifhawfda" not found.
+
+
+--- 2025-09-22 23:35:16.752413 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "purge" is not found
+
+
+--- 2025-09-22 23:35:22.418088 ---
+Command: say
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1326, in _actual_conversion
+    return await converter().convert(ctx, argument)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 281, in convert
+    raise MemberNotFound(argument)
+discord.ext.commands.errors.MemberNotFound: Member "dec" not found.
+
+
+--- 2025-09-22 23:35:37.209642 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "purge" is not found
+
+
+--- 2025-09-23 14:11:50.490055 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "review" is not found
+
+
+--- 2025-09-23 14:11:57.421265 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "review" is not found
+
+
+--- 2025-09-23 14:12:04.742996 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "review" is not found
+
+
+--- 2025-09-23 14:26:34.420207 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "say" is not found
+
+
+--- 2025-09-23 14:33:45.630791 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "motivation" is not found
+
+
+--- 2025-09-23 14:33:56.456828 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "quotd" is not found
+
+
+--- 2025-09-23 14:35:29.131236 ---
+Command: joke
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1326, in _actual_conversion
+    return await converter().convert(ctx, argument)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 281, in convert
+    raise MemberNotFound(argument)
+discord.ext.commands.errors.MemberNotFound: Member "@." not found.
+
+
+--- 2025-09-23 14:52:31.920836 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "nlvpd" is not found
+
+
+--- 2025-09-23 14:53:09.004820 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "publvmpd" is not found
+
+
+--- 2025-09-23 14:54:30.782247 ---
+Command: remove_role
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1326, in _actual_conversion
+    return await converter().convert(ctx, argument)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 281, in convert
+    raise MemberNotFound(argument)
+discord.ext.commands.errors.MemberNotFound: Member "mention_me" not found.
+
+
+--- 2025-09-23 14:56:53.511299 ---
+Command: Unknown
+discord.ext.commands.errors.CommandNotFound: Command "s" is not found
+
+
+--- 2025-09-23 15:10:31.156393 ---
+Command: remove_role
+Traceback (most recent call last):
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 880, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\core.py", line 750, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1442, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 1326, in _actual_conversion
+    return await converter().convert(ctx, argument)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hichkas\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\converter.py", line 737, in convert
+    raise RoleNotFound(argument)
+discord.ext.commands.errors.RoleNotFound: Role "LVRP" not found.
+
+
+--- 2025-09-23 20:20:53.770319 ---
+Command: players
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP BOT\main.py", line 133, in players
+    response = requests.get(SERVER_URL + "/players", headers=headers)
+                            ~~~~~~~~~~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+
+--- 2025-09-24 13:23:29.428801 ---
+Command: removelink
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP BOT\main.py", line 792, in removelink
+    c.execute("SELECT roblox_username FROM linked_accounts WHERE discord_id=?", (str(member.id),))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: linked_accounts
+
+
+--- 2025-09-24 14:56:28.922298 ---
+Command: joke
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP BOT\main.py", line 326, in joke
+    if member.id == 1274667778300706866:
+       ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+
+--- 2025-09-24 14:56:52.083514 ---
+Command: joke
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP BOT\main.py", line 326, in joke
+    if member.id == 1274667778300706866:
+       ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+
+--- 2025-09-24 14:57:05.575992 ---
+Command: joke
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP BOT\main.py", line 326, in joke
+    if member.id == 1274667778300706866:
+       ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+
+--- 2025-09-24 14:57:09.613654 ---
+Command: joke
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP BOT\main.py", line 326, in joke
+    if member.id == 1274667778300706866:
+       ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+
+--- 2025-09-24 14:58:29.690105 ---
+Command: joke
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP BOT\main.py", line 326, in joke
+    if member.id == 1274667778300706866:
+       ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+
+--- 2025-09-26 22:34:53.175684 ---
+Command: link
+
+--- 2025-09-26 22:34:53.533134 ---
+Command: link
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP-BOT-main\main.py", line 817, in link
+    log_error(
+    ~~~~~~~~~^
+        f"Bloxlink returned {response.status_code}: {response.text}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        command_name="link"
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\hichkas\Desktop\LVRP-BOT-main\main.py", line 96, in log_error
+    f.write("".join(traceback.format_exception(type(error), error, error.__traceback__)))
+                                                                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute '__traceback__'
+
+
+--- 2025-09-26 22:36:24.540641 ---
+Command: link
+
+--- 2025-09-26 22:36:25.048204 ---
+Command: link
+Traceback (most recent call last):
+  File "c:\Users\hichkas\Desktop\LVRP-BOT-main\main.py", line 809, in link
+    log_error(f"Debug: Calling Bloxlink API -> {api_url}", command_name="link")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hichkas\Desktop\LVRP-BOT-main\main.py", line 96, in log_error
+    f.write("".join(traceback.format_exception(type(error), error, error.__traceback__)))
+                                                                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute '__traceback__'
+

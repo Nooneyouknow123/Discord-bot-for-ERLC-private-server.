@@ -1,0 +1,288 @@
+[2025-09-28 21:01:37] System initialization started
+[2025-09-28 21:01:37] Module loaded: RoleManagement
+[2025-09-28 21:01:37] Module loaded: ReviewSystem
+[2025-09-28 21:01:37] Module loaded: PromotionSystem
+[2025-09-28 21:01:37] Module loaded: InfractionSystem
+[2025-09-28 21:01:37] Module loaded: LOACog
+[2025-09-28 21:01:37] Module loaded: BanAppealSystem
+[2025-09-28 21:01:37] Module loaded: FileUploadMonitor
+[2025-09-28 21:01:37] Module loaded: Priority
+[2025-09-28 21:01:37] Modules loaded: 8/8
+[2025-09-28 21:01:37] Commands registered: 12
+[2025-09-28 21:01:37] System startup initiated
+[2025-09-28 21:01:48] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-28 21:01:49] Guild slash commands synchronized
+[2025-09-28 21:01:49] Global slash commands synchronized
+[2025-09-28 21:01:50] Guild commands registered: 0
+[2025-09-28 21:01:50] Global commands registered: 12
+[2025-09-28 21:04:28] System initialization started
+[2025-09-28 21:04:28] Module loaded: RoleManagement
+[2025-09-28 21:04:28] Module loaded: ReviewSystem
+[2025-09-28 21:04:28] Module loaded: PromotionSystem
+[2025-09-28 21:04:28] Module loaded: InfractionSystem
+[2025-09-28 21:04:28] Module loaded: LOACog
+[2025-09-28 21:04:29] Module loaded: BanAppealSystem
+[2025-09-28 21:04:29] Module loaded: FileUploadMonitor
+[2025-09-28 21:04:29] Module loaded: Priority
+[2025-09-28 21:04:29] Modules loaded: 8/8
+[2025-09-28 21:04:29] Commands registered: 12
+[2025-09-28 21:04:29] System startup initiated
+[2025-09-28 21:04:41] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-28 21:04:41] Guild slash commands synchronized
+[2025-09-28 21:04:42] Global slash commands synchronized
+[2025-09-28 21:04:42] Guild commands registered: 0
+[2025-09-28 21:04:42] Global commands registered: 12
+[2025-09-28 21:11:04] System initialization started
+[2025-09-28 21:11:04] Module loaded: RoleManagement
+[2025-09-28 21:11:04] Module loaded: ReviewSystem
+[2025-09-28 21:11:04] Module loaded: PromotionSystem
+[2025-09-28 21:11:04] Module loaded: InfractionSystem
+[2025-09-28 21:11:04] Module loaded: LOACog
+[2025-09-28 21:11:04] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-28 21:11:04] Module loaded: FileUploadMonitor
+[2025-09-28 21:11:04] Module loaded: Priority
+[2025-09-28 21:11:04] Modules loaded: 7/8
+[2025-09-28 21:11:04] Commands registered: 12
+[2025-09-28 21:11:04] System startup initiated
+[2025-09-28 21:11:16] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-28 21:11:16] Guild slash commands synchronized
+[2025-09-28 21:11:17] Global slash commands synchronized
+[2025-09-28 21:11:17] Guild commands registered: 0
+[2025-09-28 21:11:17] Global commands registered: 12
+[2025-09-29 14:02:13] System initialization started
+[2025-09-29 14:02:13] Module loaded: RoleManagement
+[2025-09-29 14:02:13] Module loaded: ReviewSystem
+[2025-09-29 14:02:13] Module loaded: PromotionSystem
+[2025-09-29 14:02:13] Module loaded: InfractionSystem
+[2025-09-29 14:02:13] Module loaded: LOACog
+[2025-09-29 14:02:13] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 14:02:13] Module loaded: FileUploadMonitor
+[2025-09-29 14:02:13] Module loaded: Priority
+[2025-09-29 14:02:13] Modules loaded: 7/8
+[2025-09-29 14:02:13] Commands registered: 12
+[2025-09-29 14:02:13] System startup initiated
+[2025-09-29 14:02:23] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 14:02:23] Guild slash commands synchronized
+[2025-09-29 14:02:24] Global slash commands synchronized
+[2025-09-29 14:02:24] Guild commands registered: 0
+[2025-09-29 14:02:24] Global commands registered: 12
+[2025-09-29 18:06:21] System initialization started
+[2025-09-29 18:06:21] Module loaded: RoleManagement
+[2025-09-29 18:06:21] Module loaded: ReviewSystem
+[2025-09-29 18:06:21] Module loaded: PromotionSystem
+[2025-09-29 18:06:21] Module loaded: InfractionSystem
+[2025-09-29 18:06:21] Module loaded: LOACog
+[2025-09-29 18:06:21] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 18:06:21] Module loaded: FileUploadMonitor
+[2025-09-29 18:06:21] Module loaded: Priority
+[2025-09-29 18:06:21] Modules loaded: 7/8
+[2025-09-29 18:06:21] Commands registered: 12
+[2025-09-29 18:06:21] System startup initiated
+[2025-09-29 18:06:38] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 18:06:40] Guild slash commands synchronized
+[2025-09-29 18:06:40] Global slash commands synchronized
+[2025-09-29 18:06:41] Guild commands registered: 0
+[2025-09-29 18:06:41] Global commands registered: 12
+[2025-09-29 18:17:17] System initialization started
+[2025-09-29 18:17:17] Module loaded: RoleManagement
+[2025-09-29 18:17:17] Module loaded: ReviewSystem
+[2025-09-29 18:17:17] Module loaded: PromotionSystem
+[2025-09-29 18:17:17] Module loaded: InfractionSystem
+[2025-09-29 18:17:17] Module loaded: LOACog
+[2025-09-29 18:17:17] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 18:17:17] Module loaded: FileUploadMonitor
+[2025-09-29 18:17:17] Module loaded: Priority
+[2025-09-29 18:17:17] Modules loaded: 7/8
+[2025-09-29 18:17:17] Commands registered: 12
+[2025-09-29 18:17:17] System startup initiated
+[2025-09-29 18:17:36] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 18:17:36] Guild slash commands synchronized
+[2025-09-29 18:17:36] Global slash commands synchronized
+[2025-09-29 18:17:37] Guild commands registered: 0
+[2025-09-29 18:17:37] Global commands registered: 12
+[2025-09-29 18:18:32] System initialization started
+[2025-09-29 18:18:32] Module loaded: RoleManagement
+[2025-09-29 18:18:32] Module loaded: ReviewSystem
+[2025-09-29 18:18:32] Module loaded: PromotionSystem
+[2025-09-29 18:18:32] Module loaded: InfractionSystem
+[2025-09-29 18:18:32] Module loaded: LOACog
+[2025-09-29 18:18:32] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 18:18:32] Module loaded: FileUploadMonitor
+[2025-09-29 18:18:32] Module loaded: Priority
+[2025-09-29 18:18:32] Modules loaded: 7/8
+[2025-09-29 18:18:32] Commands registered: 12
+[2025-09-29 18:18:32] System startup initiated
+[2025-09-29 18:18:42] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 18:18:42] Guild slash commands synchronized
+[2025-09-29 18:18:43] Global slash commands synchronized
+[2025-09-29 18:18:44] Guild commands registered: 0
+[2025-09-29 18:18:44] Global commands registered: 12
+[2025-09-29 19:33:06] System initialization started
+[2025-09-29 19:33:06] Module loaded: RoleManagement
+[2025-09-29 19:33:06] Module loaded: ReviewSystem
+[2025-09-29 19:33:06] Module loaded: PromotionSystem
+[2025-09-29 19:33:06] Module loaded: InfractionSystem
+[2025-09-29 19:33:06] Module loaded: LOACog
+[2025-09-29 19:33:06] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 19:33:06] Module loaded: FileUploadMonitor
+[2025-09-29 19:33:06] Module loaded: Priority
+[2025-09-29 19:33:06] Modules loaded: 7/8
+[2025-09-29 19:33:06] Commands registered: 12
+[2025-09-29 19:33:06] System startup initiated
+[2025-09-29 19:33:14] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 19:33:14] Guild slash commands synchronized
+[2025-09-29 19:33:14] Global slash commands synchronized
+[2025-09-29 19:33:15] Guild commands registered: 0
+[2025-09-29 19:33:15] Global commands registered: 12
+[2025-09-29 19:36:35] System initialization started
+[2025-09-29 19:36:35] Module loaded: RoleManagement
+[2025-09-29 19:36:35] Module loaded: ReviewSystem
+[2025-09-29 19:36:35] Module loaded: PromotionSystem
+[2025-09-29 19:36:35] Module loaded: InfractionSystem
+[2025-09-29 19:36:35] Module loaded: LOACog
+[2025-09-29 19:36:35] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 19:36:35] Module loaded: FileUploadMonitor
+[2025-09-29 19:36:35] Module loaded: Priority
+[2025-09-29 19:36:35] Modules loaded: 7/8
+[2025-09-29 19:36:35] Commands registered: 12
+[2025-09-29 19:36:35] System startup initiated
+[2025-09-29 19:36:43] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 19:36:43] Guild slash commands synchronized
+[2025-09-29 19:36:43] Global slash commands synchronized
+[2025-09-29 19:36:44] Guild commands registered: 0
+[2025-09-29 19:36:44] Global commands registered: 12
+[2025-09-29 19:37:49] System initialization started
+[2025-09-29 19:37:49] Module loaded: RoleManagement
+[2025-09-29 19:37:49] Module loaded: ReviewSystem
+[2025-09-29 19:37:49] Module loaded: PromotionSystem
+[2025-09-29 19:37:49] Module loaded: InfractionSystem
+[2025-09-29 19:37:49] Module loaded: LOACog
+[2025-09-29 19:37:49] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 19:37:49] Module loaded: FileUploadMonitor
+[2025-09-29 19:37:49] Module loaded: Priority
+[2025-09-29 19:37:49] Modules loaded: 7/8
+[2025-09-29 19:37:49] Commands registered: 12
+[2025-09-29 19:37:49] System startup initiated
+[2025-09-29 19:38:01] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 19:38:01] Guild slash commands synchronized
+[2025-09-29 19:38:02] Global slash commands synchronized
+[2025-09-29 19:38:02] Guild commands registered: 0
+[2025-09-29 19:38:02] Global commands registered: 12
+[2025-09-29 19:41:13] System initialization started
+[2025-09-29 19:41:13] Module loaded: RoleManagement
+[2025-09-29 19:41:13] Module loaded: ReviewSystem
+[2025-09-29 19:41:13] Module loaded: PromotionSystem
+[2025-09-29 19:41:13] Module loaded: InfractionSystem
+[2025-09-29 19:41:13] Module loaded: LOACog
+[2025-09-29 19:41:13] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 19:41:13] Module loaded: FileUploadMonitor
+[2025-09-29 19:41:13] Module loaded: Priority
+[2025-09-29 19:41:13] Modules loaded: 7/8
+[2025-09-29 19:41:13] Commands registered: 12
+[2025-09-29 19:41:13] System startup initiated
+[2025-09-29 19:41:22] System initialization started
+[2025-09-29 19:41:22] Module loaded: RoleManagement
+[2025-09-29 19:41:22] Module loaded: ReviewSystem
+[2025-09-29 19:41:22] Module loaded: PromotionSystem
+[2025-09-29 19:41:22] Module loaded: InfractionSystem
+[2025-09-29 19:41:22] Module loaded: LOACog
+[2025-09-29 19:41:22] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 19:41:22] Module loaded: FileUploadMonitor
+[2025-09-29 19:41:22] Module loaded: Priority
+[2025-09-29 19:41:22] Modules loaded: 7/8
+[2025-09-29 19:41:22] Commands registered: 12
+[2025-09-29 19:41:22] System startup initiated
+[2025-09-29 19:41:30] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 19:41:30] Guild slash commands synchronized
+[2025-09-29 19:41:30] Global slash commands synchronized
+[2025-09-29 19:41:31] Guild commands registered: 0
+[2025-09-29 19:41:31] Global commands registered: 12
+[2025-09-29 19:51:06] System initialization started
+[2025-09-29 19:51:06] Module loaded: RoleManagement
+[2025-09-29 19:51:06] Module loaded: ReviewSystem
+[2025-09-29 19:51:06] Module loaded: PromotionSystem
+[2025-09-29 19:51:06] Module loaded: InfractionSystem
+[2025-09-29 19:51:06] Module loaded: LOACog
+[2025-09-29 19:51:06] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 19:51:06] Module loaded: FileUploadMonitor
+[2025-09-29 19:51:06] Module loaded: Priority
+[2025-09-29 19:51:06] Modules loaded: 7/8
+[2025-09-29 19:51:06] Commands registered: 12
+[2025-09-29 19:51:06] System startup initiated
+[2025-09-29 19:51:14] Bot initialized: Las Vegas Roleplay Utilities#3306 (ID: 1080503989818364025)
+[2025-09-29 19:51:14] Guild slash commands synchronized
+[2025-09-29 19:51:14] Global slash commands synchronized
+[2025-09-29 19:51:15] Guild commands registered: 0
+[2025-09-29 19:51:15] Global commands registered: 12
+[2025-09-29 20:44:35] System initialization started
+[2025-09-29 20:44:35] Module loaded: RoleManagement
+[2025-09-29 20:44:35] Module loaded: ReviewSystem
+[2025-09-29 20:44:35] Module loaded: PromotionSystem
+[2025-09-29 20:44:35] Module loaded: InfractionSystem
+[2025-09-29 20:44:35] Module loaded: LOACog
+[2025-09-29 20:44:35] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 20:44:35] Module loaded: FileUploadMonitor
+[2025-09-29 20:44:35] Module loaded: Priority
+[2025-09-29 20:44:35] Modules loaded: 7/8
+[2025-09-29 20:44:35] Commands registered: 12
+[2025-09-29 20:44:35] System startup initiated
+[2025-09-29 20:47:09] System initialization started
+[2025-09-29 20:47:09] Module loaded: RoleManagement
+[2025-09-29 20:47:09] Module loaded: ReviewSystem
+[2025-09-29 20:47:09] Module loaded: PromotionSystem
+[2025-09-29 20:47:09] Module loaded: InfractionSystem
+[2025-09-29 20:47:09] Module loaded: LOACog
+[2025-09-29 20:47:10] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 20:47:10] Module loaded: FileUploadMonitor
+[2025-09-29 20:47:10] Module loaded: Priority
+[2025-09-29 20:47:10] Modules loaded: 7/8
+[2025-09-29 20:47:10] Commands registered: 12
+[2025-09-29 20:47:10] System startup initiated
+[2025-09-29 20:48:04] System initialization started
+[2025-09-29 20:48:04] Module loaded: RoleManagement
+[2025-09-29 20:48:04] Module loaded: ReviewSystem
+[2025-09-29 20:48:04] Module loaded: PromotionSystem
+[2025-09-29 20:48:04] Module loaded: InfractionSystem
+[2025-09-29 20:48:04] Module loaded: LOACog
+[2025-09-29 20:48:04] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 20:48:04] Module loaded: FileUploadMonitor
+[2025-09-29 20:48:04] Module loaded: Priority
+[2025-09-29 20:48:04] Modules loaded: 7/8
+[2025-09-29 20:48:04] Commands registered: 12
+[2025-09-29 20:48:04] System startup initiated
+[2025-09-29 20:49:56] System initialization started
+[2025-09-29 20:49:56] Module loaded: RoleManagement
+[2025-09-29 20:49:56] Module loaded: ReviewSystem
+[2025-09-29 20:49:56] Module loaded: PromotionSystem
+[2025-09-29 20:49:56] Module loaded: InfractionSystem
+[2025-09-29 20:49:56] Module loaded: LOACog
+[2025-09-29 20:49:56] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 20:49:56] Module loaded: FileUploadMonitor
+[2025-09-29 20:49:56] Module loaded: Priority
+[2025-09-29 20:49:56] Modules loaded: 7/8
+[2025-09-29 20:49:56] Commands registered: 12
+[2025-09-29 20:49:56] System startup initiated
+[2025-09-29 20:50:00] System initialization started
+[2025-09-29 20:50:00] Module loaded: RoleManagement
+[2025-09-29 20:50:00] Module loaded: ReviewSystem
+[2025-09-29 20:50:00] Module loaded: PromotionSystem
+[2025-09-29 20:50:00] Module loaded: InfractionSystem
+[2025-09-29 20:50:00] Module loaded: LOACog
+[2025-09-29 20:50:00] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 20:50:00] Module loaded: FileUploadMonitor
+[2025-09-29 20:50:00] Module loaded: Priority
+[2025-09-29 20:50:00] Modules loaded: 7/8
+[2025-09-29 20:50:00] Commands registered: 12
+[2025-09-29 20:50:00] System startup initiated
+[2025-09-29 20:59:38] System initialization started
+[2025-09-29 20:59:38] Module loaded: RoleManagement
+[2025-09-29 20:59:38] Module loaded: ReviewSystem
+[2025-09-29 20:59:38] Module loaded: PromotionSystem
+[2025-09-29 20:59:38] Module loaded: InfractionSystem
+[2025-09-29 20:59:38] Module loaded: LOACog
+[2025-09-29 20:59:38] Module load failure: BanAppealSystem - Extension 'cogs.BanAppealSystem' raised an error: RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+[2025-09-29 20:59:38] Module loaded: FileUploadMonitor
+[2025-09-29 20:59:38] Module loaded: Priority
+[2025-09-29 20:59:38] Modules loaded: 7/8
+[2025-09-29 20:59:38] Commands registered: 12
+[2025-09-29 20:59:38] System startup initiated
