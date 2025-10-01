@@ -13,7 +13,7 @@ Contact me at discord: marty_fabio_
   Remove role or add role, promote or infract your staff.
 
 - **Staff management**  
-  Add/remove staff, promote/demote, review system for tracking performance.
+  Add/remove roles, promote/demote, review system for tracking performance.
 
 - **Utility commands**  
   Custom announcements, tickets, and role management.
