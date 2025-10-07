@@ -108,7 +108,7 @@ async def on_ready():
     try:
         log_output(f"Bot initialized: {bot.user} (ID: {bot.user.id})")
         
-        GUILD_ID = 1016748575289516122
+        GUILD_ID =   # put guild id here
         
         # Guild command synchronization
         guild = discord.Object(id=GUILD_ID)
@@ -155,7 +155,7 @@ async def ping(ctx):
         log_error(e, "ping")
 
 @bot.command()
-async def game(ctx, cmd: str, username: str):
+async def game(ctx, cmd: str, username: str): # THIS DONT WORK AND YOU HAVE TO FIX ISSUES HERE
     try:
         if not any(role.id in highrank for role in ctx.author.roles):
             return await ctx.send("Insufficient permissions for this command")
@@ -181,7 +181,7 @@ async def game(ctx, cmd: str, username: str):
         log_error(e, "game")
 
 @bot.command()
-async def players(ctx):
+async def players(ctx): # THIS ALSO DONT WORK
     try:
         if not any(role.id in highrank for role in ctx.author.roles):
             return await ctx.send("Insufficient permissions for this command")
@@ -216,7 +216,7 @@ async def players(ctx):
     except Exception as e:
         await ctx.send("Error retrieving player information")
         log_error(e, "players")
-
+# ------
 @bot.command()
 async def joke(ctx, member: discord.Member = None):
     try:
@@ -249,7 +249,7 @@ async def joke(ctx, member: discord.Member = None):
         # Rate limiting
         now = time.time()
            
-        YOUR_USER_ID = 1274667778300706866
+        YOUR_USER_ID =  # Put your user id here so rate limit dont affect you!
 
 # Only apply rate limit if it's NOT you using !joke
         if ctx.command.name == "joke" and ctx.author.id == YOUR_USER_ID:
@@ -288,7 +288,7 @@ async def guide(ctx):
         return
 
     try:
-        pages_data = [
+        pages_data = [  # Update it if you want to..
             {
                 "title": "Command Reference • Page 1/4",
                 "desc": "Prefix command documentation:",
@@ -391,9 +391,9 @@ conn.commit()
 def generate_review_id():
     return "".join(random.choices(string.digits, k=16))
 
-REVIEWER_ROLE_ID = 1158148745393868872
+REVIEWER_ROLE_ID =  # This is not being used in code, but im leaving it here if in case you get error about this variable try putting your user id and it will work, but i am certain its not being used anywhere.
 
-@bot.command()
+@bot.command() # This command do not work, you need to put bloxlink api of your server and then try to run it, might throw errors. I never tested this.
 async def link(ctx):
     try:
         if not any(r.id in modadmin_roles for r in ctx.author.roles):
@@ -457,7 +457,7 @@ async def removelink(ctx, member: discord.Member):
 # ------------------------------
 # Automated Systems
 # ------------------------------
-TARGET_CHANNEL_ID = 1045896138953326763
+TARGET_CHANNEL_ID =  # Put channel id here, this will only trigger in this channel.
 last_jokes, MAX_HISTORY = [], 5
 
 @bot.event
@@ -524,7 +524,7 @@ async def yes_or_no_error(ctx, error):
 # ------------------------------
 # System Administration
 # ------------------------------
-DEVELOPER_IDS = [1274667778300706866]
+DEVELOPER_IDS = [ # put your user id here, people whose user ids are here can reload cogs in discord using command.]
 COGS = [
     "RoleManagement",
     "ReviewSystem",
@@ -598,6 +598,7 @@ if __name__ == "__main__":
 
 
           
+
 
 
 
