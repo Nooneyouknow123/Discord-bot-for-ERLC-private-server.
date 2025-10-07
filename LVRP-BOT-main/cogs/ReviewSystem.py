@@ -25,7 +25,7 @@ def setup_database():
 def generate_review_id():
     return "".join(random.choices(string.digits, k=16))
 
-REVIEWER_ROLE_ID = 1158148745393868872  # Members with this role can submit reviews
+REVIEWER_ROLE_ID =   # Put a role that everyone have like "member" or "verified", people with these roles can do staff reviews, they cannot manage them so do not worry :)
 
 class ReviewSystem(commands.Cog):
     def __init__(self, bot):
@@ -233,4 +233,5 @@ class ReviewSystem(commands.Cog):
             print("Delete review error:", e)
 
 async def setup(bot):
+
     await bot.add_cog(ReviewSystem(bot))
