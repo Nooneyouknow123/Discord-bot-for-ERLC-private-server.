@@ -1,7 +1,6 @@
 # Discord Bot for ERLC Private Server  
 ⚠️ **Do not claim this project as your own!** ⚠️  
-
-A custom Discord bot originally developed for the **Las Vegas Roleplay (LVRP)** server.  
+ 
 This project demonstrates my ability to build, maintain, and scale Discord bots with advanced features for server management, automation, and community engagement.  
 
 > **Note**: Not all functions were added or fully tested. Avoid using this script unless you know how to code.  
